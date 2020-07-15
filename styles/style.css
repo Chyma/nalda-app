@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     background-color: rgba(34,34,34,0.6);
-    background: url('/assets/Images/harvester.jpg');
+    background: url('assets/Images/harvester.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment:fixed;
