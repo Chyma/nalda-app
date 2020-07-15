@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     background-color: rgba(34,34,34,0.6);
-    background-image: url('/harvester.jpg');
+    background-image: url("/assets/Images/harvester.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment:fixed;
@@ -82,7 +82,7 @@ nav{
     font-size: 5vw;
 }
 .welcome-text{
-    font-size: 1.5vw;
+    font-size: 35px;
 }
 
 /* Styling for the About US Section */
@@ -101,6 +101,9 @@ button .btn-outline-success{
     background-color: rgba(3,100,35,0.99) !important;
     color: white !important;
 /* Remeber to add hover effects innit */
+}
+.prog-title{
+    margin-top: 0.75rem;
 }
 
 /* Styling for the Blog*/
@@ -126,6 +129,12 @@ button .btn-outline-success{
     margin-right: 20px;
     color:rgba(3,100,35,0.99);
 }
+.contact-low{
+    color:rgba(3, 100, 35, 0.99);
+    font-size: 20px;
+    margin-top: 3px;
+
+}
 /* Stlings for the footer */
 #footer{
     background-color: rgba(3,100,35,0.99);
@@ -138,6 +147,9 @@ button .btn-outline-success{
 .footer-contact-us-icon-margin > i{
     margin-right: 20px;
     color:rgba(255,255,255,0.63);
+}
+.foot > ul > li > a{
+    color:rgba(255, 255, 255, 0.63);
 }
 
 
