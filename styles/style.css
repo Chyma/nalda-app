@@ -1,0 +1,144 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(34,34,34,0.6);
+    background: url('/assets/Images/harvester.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+/* font declarations*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Slab', 'serif';
+}
+p,a, label {
+    font-family: 'Mukta', 'Montserat', 'sans-serif';
+}
+/* Styling for the Navbar */
+nav{
+    padding: 100px;
+    
+}
+.bg-custom{
+    background: rgba(3, 100, 35, 0.99);
+}
+.navbar{
+    min-height: 80px;
+}
+
+.navbar .nav-item a{
+    border-radius: 3px;
+    font-size: 18px;
+}
+.navbar .nav-item a:hover{
+    color:rgba(3,100,35,0.99) !important;
+    background: rgba(255,255,255,0.90);
+}
+.navbar .nav-item a:active{
+    color: rgba(3, 100, 35, 0.99);
+    background: rgba(255, 255, 255, 0.63);
+}
+.navbar-toggler{
+    color: rgba(255,255,255,0.63);
+}
+
+
+.navbar-dark{
+    color: rgba(255,255,255,0.89) !important;
+}
+/* .navbar-dark > li:: hover{
+    color:rgba(3,100,35,0.99);
+
+/** URGENT remeber hover effect on the links**/
+
+/* styling for the divider div */
+.divider{
+    height: 115px;
+    background: transparent;
+    
+}
+/* Styling for the section that contains the wrapper and header.... */
+.wrapper{
+    background: rgba(255, 255, 255, 0.63);
+    padding: 40px;
+    margin: 10px;
+}
+.welcome-row{
+    padding: 20px;
+}
+.bold-welcome{
+    text-align: center;
+}
+.div-ridge{/** Apply media queries to adjust the height, fontsize of the box**/
+    background: rgb(255,255,255);
+    /* box-shadow: 0 1px 2px 0 rgba(3,100,35,0.99), 0 6px 20px 0 rgba(3,100,35,0.99); */
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+.welcome-title{
+    font-size: 5vw;
+}
+.welcome-text{
+    font-size: 1.5vw;
+}
+
+/* Styling for the About US Section */
+#about-us-content{
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+/* Styling for the Programmes Section*/
+button .btn-outline-success{
+    background-color: rgba(3,100,35,0.99) !important;
+    color: white !important;
+/* Remeber to add hover effects innit */
+}
+button .btn-outline-success{
+    background-color: rgba(3,100,35,0.99) !important;
+    color: white !important;
+/* Remeber to add hover effects innit */
+}
+
+/* Styling for the Blog*/
+
+/*Styling for the FAQs*/
+
+/*Styling for Contact US*/
+.mapouter{
+    padding: 0px;
+    border: 1px solid rgba(3, 100, 35, 0.99);
+}
+#contact-us-section-pad{
+    padding-left:30px;
+    padding-right: 30px;
+}
+#contact-us-card{
+    padding-left: 10px;
+}
+.contact-title-margin{
+    margin-top: 0.75rem;
+}
+.contact-us-icon-margin > i{
+    margin-right: 20px;
+    color:rgba(3,100,35,0.99);
+}
+/* Stlings for the footer */
+#footer{
+    background-color: rgba(3,100,35,0.99);
+    color: rgba(255,255,255,0.63);
+    
+}
+.copyright{
+    text-align: center;
+}
+.footer-contact-us-icon-margin > i{
+    margin-right: 20px;
+    color:rgba(255,255,255,0.63);
+}
+
+
+
